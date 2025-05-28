@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Prog\\C# \u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u041A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\CoursePaper_4Semester\\CoursePaper\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{382D0EF2-4C3C-4903-A67B-3D151AFBA2A4}|CoursePaper\\CoursePaper.csproj|d:\\prog\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0437\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u043A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\coursepaper_4semester\\coursepaper\\coursepaper\\forms\\addnewcar\\addcarcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{382D0EF2-4C3C-4903-A67B-3D151AFBA2A4}|CoursePaper\\CoursePaper.csproj|solutionrelative:coursepaper\\forms\\addnewcar\\addcarcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{382D0EF2-4C3C-4903-A67B-3D151AFBA2A4}|CoursePaper\\CoursePaper.csproj|d:\\prog\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0437\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u043A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\coursepaper_4semester\\coursepaper\\coursepaper\\forms\\aggregator\\aggregatorcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{382D0EF2-4C3C-4903-A67B-3D151AFBA2A4}|CoursePaper\\CoursePaper.csproj|solutionrelative:coursepaper\\forms\\aggregator\\aggregatorcontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{382D0EF2-4C3C-4903-A67B-3D151AFBA2A4}|CoursePaper\\CoursePaper.csproj|d:\\prog\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0437\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u043A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\coursepaper_4semester\\coursepaper\\coursepaper\\forms\\addnewcar\\addcardialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{382D0EF2-4C3C-4903-A67B-3D151AFBA2A4}|CoursePaper\\CoursePaper.csproj|solutionrelative:coursepaper\\forms\\addnewcar\\addcardialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{382D0EF2-4C3C-4903-A67B-3D151AFBA2A4}|CoursePaper\\CoursePaper.csproj|d:\\prog\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0437\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u043A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\coursepaper_4semester\\coursepaper\\coursepaper\\forms\\aggregator\\cardisplaycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{382D0EF2-4C3C-4903-A67B-3D151AFBA2A4}|CoursePaper\\CoursePaper.csproj|solutionrelative:coursepaper\\forms\\aggregator\\cardisplaycontrol.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{382D0EF2-4C3C-4903-A67B-3D151AFBA2A4}|CoursePaper\\CoursePaper.csproj|d:\\prog\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0437\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u043A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\coursepaper_4semester\\coursepaper\\coursepaper\\forms\\aggregator\\foundcarsdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{382D0EF2-4C3C-4903-A67B-3D151AFBA2A4}|CoursePaper\\CoursePaper.csproj|solutionrelative:coursepaper\\forms\\aggregator\\foundcarsdialog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{382D0EF2-4C3C-4903-A67B-3D151AFBA2A4}|CoursePaper\\CoursePaper.csproj|d:\\prog\\c# \u043F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0437\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u043A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u043A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\coursepaper_4semester\\coursepaper\\coursepaper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{382D0EF2-4C3C-4903-A67B-3D151AFBA2A4}|CoursePaper\\CoursePaper.csproj|solutionrelative:coursepaper\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AddCarControl.cs",
+              "DocumentMoniker": "D:\\Prog\\C# \u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u041A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\CoursePaper_4Semester\\CoursePaper\\CoursePaper\\Forms\\AddNewCar\\AddCarControl.cs",
+              "RelativeDocumentMoniker": "CoursePaper\\Forms\\AddNewCar\\AddCarControl.cs",
+              "ToolTip": "D:\\Prog\\C# \u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u041A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\CoursePaper_4Semester\\CoursePaper\\CoursePaper\\Forms\\AddNewCar\\AddCarControl.cs",
+              "RelativeToolTip": "CoursePaper\\Forms\\AddNewCar\\AddCarControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T23:50:08.039Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddCarDialog.cs",
+              "DocumentMoniker": "D:\\Prog\\C# \u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u041A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\CoursePaper_4Semester\\CoursePaper\\CoursePaper\\Forms\\AddNewCar\\AddCarDialog.cs",
+              "RelativeDocumentMoniker": "CoursePaper\\Forms\\AddNewCar\\AddCarDialog.cs",
+              "ToolTip": "D:\\Prog\\C# \u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u041A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\CoursePaper_4Semester\\CoursePaper\\CoursePaper\\Forms\\AddNewCar\\AddCarDialog.cs",
+              "RelativeToolTip": "CoursePaper\\Forms\\AddNewCar\\AddCarDialog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T23:49:28.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AggregatorControl.cs",
+              "DocumentMoniker": "D:\\Prog\\C# \u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u041A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\CoursePaper_4Semester\\CoursePaper\\CoursePaper\\Forms\\Aggregator\\AggregatorControl.cs",
+              "RelativeDocumentMoniker": "CoursePaper\\Forms\\Aggregator\\AggregatorControl.cs",
+              "ToolTip": "D:\\Prog\\C# \u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u041A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\CoursePaper_4Semester\\CoursePaper\\CoursePaper\\Forms\\Aggregator\\AggregatorControl.cs*",
+              "RelativeToolTip": "CoursePaper\\Forms\\Aggregator\\AggregatorControl.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T23:48:01.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CarDisplayControl.cs",
+              "DocumentMoniker": "D:\\Prog\\C# \u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u041A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\CoursePaper_4Semester\\CoursePaper\\CoursePaper\\Forms\\Aggregator\\CarDisplayControl.cs",
+              "RelativeDocumentMoniker": "CoursePaper\\Forms\\Aggregator\\CarDisplayControl.cs",
+              "ToolTip": "D:\\Prog\\C# \u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u041A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\CoursePaper_4Semester\\CoursePaper\\CoursePaper\\Forms\\Aggregator\\CarDisplayControl.cs",
+              "RelativeToolTip": "CoursePaper\\Forms\\Aggregator\\CarDisplayControl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T23:47:21.162Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FoundCarsDialog.cs",
+              "DocumentMoniker": "D:\\Prog\\C# \u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u041A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\CoursePaper_4Semester\\CoursePaper\\CoursePaper\\Forms\\Aggregator\\FoundCarsDialog.cs",
+              "RelativeDocumentMoniker": "CoursePaper\\Forms\\Aggregator\\FoundCarsDialog.cs",
+              "ToolTip": "D:\\Prog\\C# \u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u041A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\CoursePaper_4Semester\\CoursePaper\\CoursePaper\\Forms\\Aggregator\\FoundCarsDialog.cs",
+              "RelativeToolTip": "CoursePaper\\Forms\\Aggregator\\FoundCarsDialog.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T23:46:37.876Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Prog\\C# \u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u041A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\CoursePaper_4Semester\\CoursePaper\\CoursePaper\\Program.cs",
+              "RelativeDocumentMoniker": "CoursePaper\\Program.cs",
+              "ToolTip": "D:\\Prog\\C# \u041F\u0440\u043E\u0435\u043A\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 - \u0417\u0430\u0434\u0430\u043D\u0438\u0435 \u043E\u0442 \u041A\u043E\u0440\u043E\u0431\u0435\u0439\u043D\u0438\u043A\u043E\u0432\u0430\\\u041A\u0443\u0440\u0441\u043E\u0432\u044B\u0435\\CoursePaper_4Semester\\CoursePaper\\CoursePaper\\Program.cs*",
+              "RelativeToolTip": "CoursePaper\\Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T10:51:47.917Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
