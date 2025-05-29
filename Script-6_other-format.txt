@@ -1,0 +1,304 @@
+CREATE TABLE Brands(
+	Id SERIAL PRIMARY KEY,
+	Name VARCHAR(38) NOT NULL UNIQUE
+);
+
+CREATE TABLE Models(
+	Id SERIAL PRIMARY KEY,
+	Brand_id INTEGER NOT NULL,
+	Name VARCHAR(60) NOT NULL,
+	FOREIGN KEY (Brand_id) REFERENCES Brands (Id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Citys(
+	Id SERIAL PRIMARY KEY,
+	Name VARCHAR(24)
+)
+
+CREATE TABLE Cars(
+	Id SERIAL PRIMARY KEY,
+	Brand_id INTEGER NOT NULL,
+	Model_id INTEGER NOT NULL,
+	Release_year INTEGER CHECK(Release_year >= 1885 and Release_year <= date_part('year', CURRENT_DATE)) NOT NULL,
+	Engine_power INTEGER CHECK(Engine_power >0) NOT NULL,
+	Gear_shift_box_type VARCHAR(12) NOT NULL,
+	Condition VARCHAR(10) NOT NULL,
+	Price INTEGER CHECK(Price > 0) NOT NULL,
+	City_of_sale_id INTEGER NOT NULL,
+	Is_relevant boolean NOT NULL,
+	FOREIGN KEY (City_of_sale_id) REFERENCES Citys (Id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (Brand_id) REFERENCES Brands (Id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (Model_id) REFERENCES Models (Id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+CREATE TABLE Clients(
+	Id SERIAL PRIMARY KEY,
+	City_id INTEGER,
+	Brand_id INTEGER,
+	Model_id INTEGER,
+	Release_year INT4RANGE CHECK (lower(Release_year) >= 1885 AND upper(Release_year) <= date_part('year', CURRENT_DATE) + 1),
+	Engine_power INT4RANGE CHECK (lower(Engine_power) >= 0),
+	Gear_shift_box_type VARCHAR(12),
+	Condition VARCHAR(10),
+	Price INT4RANGE CHECK (lower(Price) >= 0),
+	Is_relevant boolean NOT NULL,
+	FOREIGN KEY (City_id) REFERENCES Citys (Id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (Brand_id) REFERENCES Brands (Id) ON DELETE CASCADE ON UPDATE CASCADE,
+	FOREIGN KEY (Model_id) REFERENCES Models (Id) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+INSERT INTO clients (city_id,brand_id,model_id,release_year,engine_power,gear_shift_box_type,condition,price,is_relevant) VALUES (10,7,32,int4range(2010, 2025, '[]'),int4range(0, 250, '[]'),'Автомат','С пробегом',int4range(1000000, 6000000, '[]'),True);
+
+SELECT * FROM clients WHERE is_relevant;
+
+/*
+ПРИМЕР ВСТАВКИ ДАННЫХ
+insert into test2 values('[1886, 2002]');
+insert into test2 values('[1986, 1999]');
+insert into test2 values('[1995, 2000]');
+
+ПРИМЕР ОТБОРА ДАННЫХ
+select * from test2 
+where values @> 1990;
+*/
+
+insert into brands (Name)
+values
+('Volkswagen'),
+('Mercedes-Benz'),
+('Geely'),
+('Chevrolet'),
+('Ford'),
+('Toyota'),
+('Lexus'),
+('Hyundai'),
+('Fiat');
+
+insert into models (brand_id, Name)
+values
+(3, 'Granta'),
+(3, 'Vesta'),
+(3, 'Niva'),
+(3, 'Niva Travel'),
+(3, 'XRAY'),
+(3, '2114'),
+(3, 'Aura');
+
+insert into models (brand_id, Name)
+values
+(4, 'M1'),
+(4, 'M3'),
+(4, 'M4'),
+(4, 'X5'),
+(4, 'X6'),
+(4, 'Z3');
+
+insert into models (brand_id, Name)
+values
+(5, 'TT'),
+(5, 'TT RS'),
+(5, 'A2'),
+(5, 'RS 6'),
+(5, 'Coupe'),
+(5, 'SQ5 Sportback');
+
+insert into models (brand_id, Name)
+values
+(6, '65801'),
+(6, '43082 Компас-12'),
+(6, '43086 Компас-6'),
+(6, '4310');
+
+insert into models (brand_id, Name)
+values
+(7, 'Amarok'),
+(7, 'Golf'),
+(7, 'Golf GTI'),
+(7, 'Jetta'),
+(7, 'Passat'),
+(7, 'Passat CC'),
+(7, 'Tiguan'),
+(7, 'Touareg'),
+(7, 'Transporter'),
+(7, 'Polo');
+
+insert into models (brand_id, Name)
+values
+(8, 'Maybach GLS'),
+(8, 'Viano'),
+(8, 'AMG GT'),
+(8, 'CLS 220'),
+(8, 'CLS 250'),
+(8, 'G-Класс AMG Brabus 800');
+
+insert into models (brand_id, Name)
+values
+(9, 'Atlas'),
+(9, 'Binyue'),
+(9, 'Coolray'),
+(9, 'EX5');
+
+insert into models (brand_id, Name)
+values
+(10, 'Aveo'),
+(10, 'Cruze'),
+(10, 'Lacetti'),
+(10, 'Nexia');
+
+insert into models (brand_id, Name)
+values
+(11, 'Escape'),
+(11, 'F-150'),
+(11, 'Focus'),
+(11, 'Mustang');
+
+insert into models (brand_id, Name)
+values
+(12, 'C-HR'),
+(12, 'Camry'),
+(12, 'Corolla'),
+(12, 'Land Cruiser'),
+(12, 'Land Cruiser Prado'),
+(12, 'RAV4');
+
+insert into models (brand_id, Name)
+values
+(13, 'ES 250'),
+(13, 'ES 350'),
+(13, 'LS 350'),
+(13, 'LS 400'),
+(13, 'LC');
+
+insert into models (brand_id, Name)
+values
+(14, 'Coupe'),
+(14, 'Accent'),
+(14, 'Creat'),
+(14, 'Elantra'),
+(14, 'Tucson');
+
+insert into models (brand_id, Name)
+values
+(15, 'Albea'),
+(15, 'Fullback'),
+(15, 'Panda');
+
+
+insert into citys (name)
+values
+('Москва'),
+('Ижевск'),
+('Можга'),
+('Киров'),
+('Чита');
+
+INSERT INTO Cars (
+    brand_id,
+    model_id,
+    release_year,
+    engine_power,
+    gear_shift_box_type,
+    condition,
+    price,
+    city_of_sale_id,
+    is_relevant
+) VALUES
+(
+    3,               -- Brand_id
+    1,               -- Model_id
+    2013,            -- Release_year
+    82,             -- Engine_power
+    'Механическая',     -- Gear_shift_box_type
+    'С пробегом',           -- Condition
+    250000,        -- Price
+    3,               -- City_of_sale_id
+    true             -- Is_relevant
+);
+
+INSERT INTO Cars (
+    brand_id,
+    model_id,
+    release_year,
+    engine_power,
+    gear_shift_box_type,
+    condition,
+    price,
+    city_of_sale_id,
+    is_relevant
+) VALUES
+(3, 1, 2019, 98, 'Автомат', 'С пробегом', 499000, 1, true),
+(3, 2, 2017, 122, 'Механическая', 'С пробегом', 798000, 5, true),
+(3, 6, 2010, 81, 'Механическая', 'С пробегом', 157000, 2, true),
+(7, 29, 2008, 200, 'Автомат', 'С пробегом', 830000, 1, true);
+
+INSERT INTO Cars (
+    brand_id,
+    model_id,
+    release_year,
+    engine_power,
+    gear_shift_box_type,
+    condition,
+    price,
+    city_of_sale_id,
+    is_relevant
+) VALUES
+(11, 55, 1969, 294, 'Механическая', 'С пробегом', 27900900, 1, true),
+(9, 42, 2023, 150, 'Автомат', 'Новая', 2709990, 4, true),
+(5, 17, 2025, 630, 'Автомат', 'Новая', 23200000, 1, true);
+
+INSERT INTO cars (brand_id,model_id,release_year,engine_power,gear_shift_box_type,condition,price,city_of_sale_id,is_relevant) VALUES (12,57,2021,200,'Автомат','С пробегом',2475989,3,True);
+INSERT INTO cars (brand_id,model_id,release_year,engine_power,gear_shift_box_type,condition,price,city_of_sale_id,is_relevant) VALUES (12,57,2024,230,'Автомат','Новая',6200000,1,True);
+
+
+UPDATE cars SET is_relevant = false WHERE id = 5;
+
+
+
+SELECT * FROM cars WHERE brand_id = 3 AND gear_shift_box_type = 'Механическая' AND condition = 'С пробегом' AND city_of_sale_id = 3 AND model_id IN (1) AND release_year BETWEEN 2010 AND 2015 AND engine_power BETWEEN 80 AND 92 AND price BETWEEN 100000 AND 500000
+
+SELECT * FROM cars WHERE brand_id = 4 AND release_year BETWEEN 1885 AND 2025;
+
+SELECT * FROM cars WHERE brand_id = 3 AND gear_shift_box_type = 'Механическая' AND model_id IN (6,7,1,3,2) AND release_year BETWEEN 1885 AND 2015 AND engine_power <= 100 AND price <= 1000000;
+
+SELECT * FROM cars WHERE brand_id = 3 AND gear_shift_box_type = 'Механическая' AND city_of_sale_id = 3 AND model_id IN (7,1,3) AND release_year BETWEEN 1885 AND 2015 AND engine_power >= 80 AND price BETWEEN 5000 AND 1000000;
+
+SELECT * FROM cars WHERE brand_id = 3 AND gear_shift_box_type = 'Механическая' AND model_id IN (7,1) AND release_year BETWEEN 2010 AND 2015 AND engine_power >= 80 AND price BETWEEN 50000 AND 500000;
+
+SELECT * FROM cars WHERE brand_id = 3 AND release_year BETWEEN 1885 AND 2025;
+
+SELECT * FROM cars WHERE brand_id = 3 AND gear_shift_box_type = 'Автомат' AND release_year BETWEEN 1885 AND 2025;
+
+SELECT * FROM cars WHERE brand_id = 3 AND gear_shift_box_type = 'Механическая' AND condition = 'Новая' AND release_year BETWEEN 2000 AND 2019 AND engine_power BETWEEN 40 AND 115 AND price BETWEEN 5 AND 50000000 AND is_relevant;
+
+SELECT id FROM brands WHERE name = 'BMW';
+
+SELECT * FROM cars WHERE brand_id = 11 AND release_year BETWEEN 1885 AND 2025 AND is_relevant;
+SELECT * FROM cars WHERE brand_id = 11 AND release_year BETWEEN 1885 AND 2025 AND is_relevant;
+SELECT * FROM cars WHERE brand_id = 3 AND release_year BETWEEN 1885 AND 2025 AND is_relevant;
+SELECT * FROM cars WHERE brand_id = 3 AND model_id IN (1,3) AND release_year BETWEEN 1885 AND 2025 AND is_relevant;
+
+SELECT
+id,
+(select name from brands where id = brand_id),
+(select name from models where id = model_id),
+release_year,
+engine_power,
+gear_shift_box_type,
+condition,
+price,
+(select name from citys where id = city_of_sale_id)
+FROM cars WHERE brand_id = 3 AND release_year BETWEEN 1885 AND 2018 AND price <= 800000 AND is_relevant;
+
+SELECT
+id,
+(select name from brands where id = brand_id),
+(select name from models where id = model_id),
+release_year,
+engine_power,
+gear_shift_box_type,
+condition,
+price,
+(select name from citys where id = city_of_sale_id)
+FROM cars WHERE is_relevant;
+
+
